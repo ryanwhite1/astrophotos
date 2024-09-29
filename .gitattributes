@@ -1,4 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-git lfs track "*.CR2"
+
 *.CR2 filter=lfs diff=lfs merge=lfs -text
